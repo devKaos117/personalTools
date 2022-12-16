@@ -41,11 +41,11 @@
         <!-- ------- footer ------- -->
         <!-- ------- script ------- -->
         <script>
-//------- screen
+            //------- screen size logging
             var screenW = $(window).width();
             var screenH = $(window).height();
             console.log("x",screenW,"y",screenH);
-//------- iFrame closing
+            //------- iFrame closing
             if (window.top !== window.self){
                 window.top.location.replace(window.self.location.href);
             }
